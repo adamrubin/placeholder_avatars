@@ -36,6 +36,7 @@ By default PlaceholderAvatars will grab 100 twitter avatars that come from the s
     <% end %>
 
 To override the number of avatars (<=100) or the keyword:
+
     <% PlaceholderAvatars.fetch("evil", 50).each do |avatar| %>
       <%= image_tag(avatar) %>
     <% end %>
